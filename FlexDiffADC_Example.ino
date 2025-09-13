@@ -1,7 +1,8 @@
 /********************************************************************************************************
 This example Arduino sketch is meant to work with Anabit's Flex Differential ADC open source reference design and will run on any Arduino that supports
 Hardware SPI communication
-Product link: 
+
+Product link: https://anabit.co/products/flex-differential-adc
 
 The Flex Differential ADC design uses a pseudo differential ADC. Why is it pseudo differential? It is pseudo differential because it does not support negative 
 voltages, refernced to the ADCs ground, and its common mode voltage is always vref/2. It can only support negative voltage below the common mode voltage. 
